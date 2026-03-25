@@ -78,6 +78,6 @@ steam
 
 ## Screenshots
 
-<img width="1920" height="1080" alt="preview" src="https://github.com/user-attachments/assets/3cfcdaa0-2a44-46f3-8b80-c8eef29ac3ad" />
-<img width="1920" height="1080" alt="preview2" src="https://github.com/user-attachments/assets/ed8ef71a-3f90-4dea-9f49-6bd740d4418f" />
+<img width="1920" height="1080" alt="preview" src="https://github.com/Matko802/Mystical-Blue-Theme/blob/main/screenshots/preview.png?raw=true" />
+
 
