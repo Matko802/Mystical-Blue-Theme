@@ -3,24 +3,24 @@ Color=56,56,56
 ColorAmount=0
 ColorEffect=0
 ContrastAmount=0.65
-ContrastEffect=1
+ContrastEffect=0
 IntensityAmount=0.1
 IntensityEffect=2
 
 [ColorEffects:Inactive]
 ChangeSelectionColor=true
-Color=112,111,110
-ColorAmount=0.025
-ColorEffect=2
-ContrastAmount=0.1
-ContrastEffect=2
-Enable=false
+Color=0,0,0
+ColorAmount=0
+ColorEffect=0
+ContrastAmount=0
+ContrastEffect=0
+Enable=true
 IntensityAmount=0
 IntensityEffect=0
 
 [Colors:Button]
 BackgroundAlternate=30,87,116
-BackgroundNormal=27,28,34
+BackgroundNormal=0,0,0
 DecorationFocus=62,111,217
 DecorationHover=62,111,217
 ForegroundActive=96,132,210
@@ -34,7 +34,7 @@ ForegroundVisited=154,160,208
 
 [Colors:Complementary]
 BackgroundAlternate=30,87,116
-BackgroundNormal=32,35,38
+BackgroundNormal=0,0,0
 DecorationFocus=96,132,210
 DecorationHover=96,132,210
 ForegroundActive=96,132,210
@@ -47,8 +47,8 @@ ForegroundPositive=39,174,96
 ForegroundVisited=154,160,208
 
 [Colors:Header]
-BackgroundAlternate=32,35,38
-BackgroundNormal=41,44,48
+BackgroundAlternate=0,0,0
+BackgroundNormal=0,0,0
 DecorationFocus=52,93,182
 DecorationHover=52,93,182
 ForegroundActive=96,132,210
@@ -61,16 +61,16 @@ ForegroundPositive=39,174,96
 ForegroundVisited=154,160,208
 
 [Colors:Header][Inactive]
-BackgroundAlternate=41,44,48
-BackgroundNormal=32,35,38
-DecorationFocus=61,174,233
-DecorationHover=61,174,233
-ForegroundActive=61,174,233
-ForegroundInactive=161,169,177
-ForegroundLink=29,153,243
+BackgroundAlternate=0,0,0
+BackgroundNormal=0,0,0
+DecorationFocus=52,93,182
+DecorationHover=52,93,182
+ForegroundActive=96,132,210
+ForegroundInactive=136,138,154
+ForegroundLink=96,132,210
 ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
-ForegroundNormal=252,252,252
+ForegroundNormal=225,225,225
 ForegroundPositive=39,174,96
 ForegroundVisited=155,89,182
 
@@ -89,8 +89,8 @@ ForegroundPositive=23,104,57
 ForegroundVisited=154,160,208
 
 [Colors:Tooltip]
-BackgroundAlternate=32,35,38
-BackgroundNormal=37,38,48
+BackgroundAlternate=17,17,17
+BackgroundNormal=0,0,0
 DecorationFocus=62,111,217
 DecorationHover=62,111,217
 ForegroundActive=96,132,210
@@ -103,8 +103,8 @@ ForegroundPositive=39,174,96
 ForegroundVisited=154,160,208
 
 [Colors:View]
-BackgroundAlternate=42,44,49
-BackgroundNormal=28,28,35
+BackgroundAlternate=0,0,0
+BackgroundNormal=0,0,0
 DecorationFocus=62,111,217
 DecorationHover=62,111,217
 ForegroundActive=96,132,210
@@ -117,8 +117,8 @@ ForegroundPositive=39,174,96
 ForegroundVisited=154,160,208
 
 [Colors:Window]
-BackgroundAlternate=41,44,48
-BackgroundNormal=37,39,47
+BackgroundAlternate=0,0,0
+BackgroundNormal=0,0,0
 DecorationFocus=62,111,217
 DecorationHover=62,111,217
 ForegroundActive=96,132,210
@@ -136,12 +136,14 @@ Name=JuxTheme
 shadeSortColumn=true
 
 [KDE]
+Contrast=2
 contrast=4
+frameContrast=0.2
 
 [WM]
-activeBackground=39,44,49
+activeBackground=0,0,0
 activeBlend=252,252,252
 activeForeground=252,252,252
-inactiveBackground=32,36,40
+inactiveBackground=0,0,0
 inactiveBlend=161,169,177
 inactiveForeground=161,169,177
